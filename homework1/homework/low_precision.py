@@ -72,17 +72,26 @@ class Linear4Bit(torch.nn.Module):
         self, state_dict, prefix, local_metadata, strict, missing_keys, unexpected_keys, error_msgs
     ):
         if f"{prefix}weight" in state_dict:
-            # Load the original weights and remove them from the state_dict (mark them as loaded)
-            weight = state_dict[f"{prefix}weight"]  # noqa: F841
+            # Pull the original (float32) weight out of the state_dict so the
+            # default loader doesn't complain about a missing target -- our
+            # module has no "weight" parameter, only buffers.
+            weight = state_dict[f"{prefix}weight"]
             del state_dict[f"{prefix}weight"]
-            # TODO: Quantize the weights and store them in self.weight_q4 and self.weight_norm
-            raise NotImplementedError()
+
+            # Quantize the flattened weight tensor and stash the result in our
+            # buffers. We copy in-place so the buffers stay on the right device.
+            weight_flat = weight.detach().to(torch.float32).contiguous().view(-1)
+            q4, norm = block_quantize_4bit(weight_flat, self._group_size)
+            self.weight_q4.copy_(q4)
+            self.weight_norm.copy_(norm)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        # Dequantize the weight on the fly; no_grad keeps autograd from tracking
+        # this (we never train the quantized weight). The output tensor is still
+        # part of the graph for any downstream LoRA / loss.
         with torch.no_grad():
-            # TODO: Dequantize and call the layer
-            # Hint: You can use torch.nn.functional.linear
-            raise NotImplementedError()
+            weight = block_dequantize_4bit(self.weight_q4, self.weight_norm).view(self._shape)
+        return torch.nn.functional.linear(x, weight, self.bias)
 
 
 class BigNet4Bit(torch.nn.Module):
@@ -94,16 +103,32 @@ class BigNet4Bit(torch.nn.Module):
     class Block(torch.nn.Module):
         def __init__(self, channels):
             super().__init__()
-            # TODO: Implement me (feel free to copy and reuse code from bignet.py)
-            raise NotImplementedError()
+            self.model = torch.nn.Sequential(
+                Linear4Bit(channels, channels),
+                torch.nn.ReLU(),
+                Linear4Bit(channels, channels),
+                torch.nn.ReLU(),
+                Linear4Bit(channels, channels),
+            )
 
         def forward(self, x: torch.Tensor) -> torch.Tensor:
             return self.model(x) + x
 
     def __init__(self):
         super().__init__()
-        # TODO: Implement me (feel free to copy and reuse code from bignet.py)
-        raise NotImplementedError()
+        self.model = torch.nn.Sequential(
+            self.Block(BIGNET_DIM),
+            LayerNorm(BIGNET_DIM),
+            self.Block(BIGNET_DIM),
+            LayerNorm(BIGNET_DIM),
+            self.Block(BIGNET_DIM),
+            LayerNorm(BIGNET_DIM),
+            self.Block(BIGNET_DIM),
+            LayerNorm(BIGNET_DIM),
+            self.Block(BIGNET_DIM),
+            LayerNorm(BIGNET_DIM),
+            self.Block(BIGNET_DIM),
+        )
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return self.model(x)
