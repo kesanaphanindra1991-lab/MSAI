@@ -114,22 +114,48 @@ class PatchAutoEncoder(torch.nn.Module, PatchAutoEncoderBase):
 
         def __init__(self, patch_size: int, latent_dim: int, bottleneck: int):
             super().__init__()
-            raise NotImplementedError()
+            self.patchify = PatchifyLinear(patch_size, latent_dim)
+            # A few extra per-patch (1x1 conv) layers with GeLU give the encoder more
+            # capacity/non-linearity than a plain linear patchify, which helps
+            # BSQPatchAutoEncoder downstream even though the plain AE reconstructs fine either way.
+            self.net = torch.nn.Sequential(
+                torch.nn.Conv2d(latent_dim, latent_dim, kernel_size=1),
+                torch.nn.GELU(),
+                torch.nn.Conv2d(latent_dim, latent_dim, kernel_size=1),
+                torch.nn.GELU(),
+                torch.nn.Conv2d(latent_dim, bottleneck, kernel_size=1),
+            )
 
         def forward(self, x: torch.Tensor) -> torch.Tensor:
-            raise NotImplementedError()
+            x = self.patchify(x)  # (B, h, w, latent_dim)
+            x = hwc_to_chw(x)
+            x = self.net(x)
+            return chw_to_hwc(x)  # (B, h, w, bottleneck)
 
     class PatchDecoder(torch.nn.Module):
         def __init__(self, patch_size: int, latent_dim: int, bottleneck: int):
             super().__init__()
-            raise NotImplementedError()
+            self.net = torch.nn.Sequential(
+                torch.nn.Conv2d(bottleneck, latent_dim, kernel_size=1),
+                torch.nn.GELU(),
+                torch.nn.Conv2d(latent_dim, latent_dim, kernel_size=1),
+                torch.nn.GELU(),
+            )
+            self.unpatchify = UnpatchifyLinear(patch_size, latent_dim)
 
         def forward(self, x: torch.Tensor) -> torch.Tensor:
-            raise NotImplementedError()
+            x = hwc_to_chw(x)  # (B, bottleneck, h, w)
+            x = self.net(x)
+            x = chw_to_hwc(x)  # (B, h, w, latent_dim)
+            return self.unpatchify(x)
 
     def __init__(self, patch_size: int = 25, latent_dim: int = 128, bottleneck: int = 128):
         super().__init__()
-        raise NotImplementedError()
+        self.patch_size = patch_size
+        self.latent_dim = latent_dim
+        self.bottleneck = bottleneck
+        self.encoder = self.PatchEncoder(patch_size, latent_dim, bottleneck)
+        self.decoder = self.PatchDecoder(patch_size, latent_dim, bottleneck)
 
     def forward(self, x: torch.Tensor) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
         """
@@ -137,10 +163,11 @@ class PatchAutoEncoder(torch.nn.Module, PatchAutoEncoderBase):
         minimize (or even just visualize).
         You can return an empty dictionary if you don't have any additional terms.
         """
-        raise NotImplementedError()
+        x_hat = self.decode(self.encode(x))
+        return x_hat, {}
 
     def encode(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        return self.encoder(x)
 
     def decode(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        return self.decoder(x)

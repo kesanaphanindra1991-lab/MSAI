@@ -46,7 +46,9 @@ class Tokenizer(abc.ABC):
 class BSQ(torch.nn.Module):
     def __init__(self, codebook_bits: int, embedding_dim: int):
         super().__init__()
-        raise NotImplementedError()
+        self._codebook_bits = codebook_bits
+        self.down_proj = torch.nn.Linear(embedding_dim, codebook_bits, bias=False)
+        self.up_proj = torch.nn.Linear(codebook_bits, embedding_dim, bias=False)
 
     def encode(self, x: torch.Tensor) -> torch.Tensor:
         """
@@ -55,14 +57,16 @@ class BSQ(torch.nn.Module):
         - L2 normalization
         - differentiable sign
         """
-        raise NotImplementedError()
+        x = self.down_proj(x)
+        x = torch.nn.functional.normalize(x, dim=-1)
+        return diff_sign(x)
 
     def decode(self, x: torch.Tensor) -> torch.Tensor:
         """
         Implement the BSQ decoder:
         - A linear up-projection into embedding_dim should suffice
         """
-        raise NotImplementedError()
+        return self.up_proj(x)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return self.decode(self.encode(x))
@@ -96,20 +100,27 @@ class BSQPatchAutoEncoder(PatchAutoEncoder, Tokenizer):
     """
 
     def __init__(self, patch_size: int = 5, latent_dim: int = 128, codebook_bits: int = 10):
-        super().__init__(patch_size=patch_size, latent_dim=latent_dim)
-        raise NotImplementedError()
+        # Bottleneck of the underlying PatchAutoEncoder is the BSQ embedding_dim (latent_dim),
+        # NOT the codebook_bits -- the BSQ module itself does the latent_dim -> codebook_bits
+        # down-projection (and back up) internally.
+        super().__init__(patch_size=patch_size, latent_dim=latent_dim, bottleneck=latent_dim)
+        self.codebook_bits = codebook_bits
+        self.bsq = BSQ(codebook_bits, latent_dim)
 
     def encode_index(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        # image -> PatchAutoEncoder encode -> BSQ encode_index -> tokens
+        # (do NOT route this through a separately-computed `encode` + `_code_to_index`;
+        # encode_index handles the code->index conversion for us)
+        return self.bsq.encode_index(self.encoder(x))
 
     def decode_index(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        return self.decode(self.bsq._index_to_code(x))
 
     def encode(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        return self.bsq.encode(self.encoder(x))
 
     def decode(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError()
+        return self.decoder(self.bsq.decode(x))
 
     def forward(self, x: torch.Tensor) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
         """
@@ -127,4 +138,20 @@ class BSQPatchAutoEncoder(PatchAutoEncoder, Tokenizer):
                 ...
               }
         """
-        raise NotImplementedError()
+        # NOTE: we compute `code` once here and reuse it for both reconstruction and the
+        # (detached, monitoring-only) codebook-usage stats below. We never call
+        # `_code_to_index` on anything that needs a gradient -- it's an integer-valued,
+        # non-differentiable op, and using it inside the differentiable path would silently
+        # block gradient flow back through the encoder.
+        z = self.encoder(x)
+        code = self.bsq.encode(z)
+        x_hat = self.decoder(self.bsq.decode(code))
+
+        with torch.no_grad():
+            idx = self.bsq._code_to_index(code)
+            cnt = torch.bincount(idx.flatten(), minlength=2**self.codebook_bits)
+            stats = {
+                "cb0": (cnt == 0).float().mean(),
+                "cb2": (cnt <= 2).float().mean(),
+            }
+        return x_hat, stats
