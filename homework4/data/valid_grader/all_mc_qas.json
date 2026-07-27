@@ -1,0 +1,2202 @@
+[
+  {
+    "image_file": "valid/000d9_06_im.jpg",
+    "candidates": [
+      "The track is scotland.",
+      "There are 9 karts in the scene.",
+      "gavroche is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00042_00_im.jpg",
+    "candidates": [
+      "konqi is the ego car.",
+      "There are 7 karts in the scene.",
+      "The track is sandtrack.",
+      "The track is hacienda.",
+      "konqi is in front of the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000b2_00_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "The track is xr591.",
+      "puffy is the ego car.",
+      "The track is fortmagma.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000ee_05_im.jpg",
+    "candidates": [
+      "The track is sandtrack.",
+      "There are 1 karts in the scene.",
+      "The track is hacienda.",
+      "The track is zengarden.",
+      "There are 6 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000f7_02_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is xr591.",
+      "The track is tutorial.",
+      "kiki is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00095_08_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is cocoa_temple.",
+      "xue is right of the ego car.",
+      "gnu is in front of the ego car.",
+      "konqi is in front of the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00079_05_im.jpg",
+    "candidates": [
+      "sara_the_wizard is behind the ego car.",
+      "The track is zengarden.",
+      "The track is snowtuxpeak.",
+      "hexley is behind the ego car.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00085_07_im.jpg",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "The track is candela_city.",
+      "There are 8 karts in the scene.",
+      "tux is the ego car.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00065_04_im.jpg",
+    "candidates": [
+      "amanda is left of the ego car.",
+      "The track is zengarden.",
+      "amanda is right of the ego car.",
+      "konqi is right of the ego car.",
+      "The track is sandtrack."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00051_08_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is snowmountain.",
+      "gavroche is the ego car.",
+      "wilber is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000ae_08_im.jpg",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is candela_city.",
+      "sara_the_racer is the ego car.",
+      "suzanne is the ego car.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00005_05_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "pidgin is the ego car.",
+      "gavroche is the ego car.",
+      "The track is minigolf.",
+      "The track is abyss."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000d7_03_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "There are 6 karts in the scene.",
+      "suzanne is the ego car.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00052_00_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "xue is the ego car.",
+      "The track is sandtrack.",
+      "puffy is behind the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00028_01_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "There are 8 karts in the scene.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00089_05_im.jpg",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "The track is lighthouse.",
+      "There are 4 karts in the scene.",
+      "The track is scotland.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00019_09_im.jpg",
+    "candidates": [
+      "kiki is in front of the ego car.",
+      "The track is cornfield_crossing.",
+      "wilber is the ego car.",
+      "The track is tutorial.",
+      "suzanne is right of the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00012_01_im.jpg",
+    "candidates": [
+      "emule is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "puffy is the ego car.",
+      "The track is abyss.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00076_06_im.jpg",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is ravenbridge_mansion.",
+      "nolok is the ego car.",
+      "pidgin is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000ff_02_im.jpg",
+    "candidates": [
+      "The track is black_forest.",
+      "The track is candela_city.",
+      "The track is snowtuxpeak.",
+      "There are 5 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0003b_01_im.jpg",
+    "candidates": [
+      "hexley is the ego car.",
+      "The track is cocoa_temple.",
+      "The track is fortmagma.",
+      "adiumy is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000f4_07_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is hacienda.",
+      "sara_the_wizard is the ego car.",
+      "The track is olivermath.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000f5_06_im.jpg",
+    "candidates": [
+      "xue is left of the ego car.",
+      "tux is the ego car.",
+      "There are 9 karts in the scene.",
+      "konqi is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000aa_09_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is olivermath.",
+      "The track is cocoa_temple.",
+      "xue is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000bb_00_im.jpg",
+    "candidates": [
+      "The track is tutorial.",
+      "wilber is behind the ego car.",
+      "The track is scotland.",
+      "The track is candela_city.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000e5_07_im.jpg",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "There are 1 karts in the scene.",
+      "tux is the ego car.",
+      "The track is lighthouse.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00009_09_im.jpg",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is ravenbridge_mansion.",
+      "There are 7 karts in the scene.",
+      "beastie is the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000c5_02_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "adiumy is the ego car.",
+      "xue is the ego car.",
+      "kiki is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00084_06_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "The track is snowmountain.",
+      "The track is tutorial.",
+      "There are 2 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000a1_00_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is zengarden.",
+      "The track is sandtrack.",
+      "amanda is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000ef_08_im.jpg",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is snowtuxpeak.",
+      "sara_the_wizard is the ego car.",
+      "The track is scotland.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000a9_06_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "puffy is in front of the ego car.",
+      "The track is zengarden.",
+      "The track is overworld.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/0009c_00_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "There are 6 karts in the scene.",
+      "The track is fortmagma.",
+      "There are 5 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00078_03_im.jpg",
+    "candidates": [
+      "The track is cornfield_crossing.",
+      "The track is gran_paradiso_island.",
+      "The track is candela_city.",
+      "amanda is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/0000f_04_im.jpg",
+    "candidates": [
+      "The track is minigolf.",
+      "The track is scotland.",
+      "There are 7 karts in the scene.",
+      "The track is cornfield_crossing.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000d5_02_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "The track is cornfield_crossing.",
+      "beastie is right of the ego car.",
+      "The track is xr591.",
+      "The track is zengarden."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00094_09_im.jpg",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "adiumy is the ego car.",
+      "konqi is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000e8_02_im.jpg",
+    "candidates": [
+      "konqi is the ego car.",
+      "The track is lighthouse.",
+      "There are 4 karts in the scene.",
+      "tux is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00096_00_im.jpg",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "The track is cocoa_temple.",
+      "emule is the ego car.",
+      "There are 1 karts in the scene.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00099_01_im.jpg",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is cocoa_temple.",
+      "pidgin is the ego car.",
+      "emule is in front of the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000b7_07_im.jpg",
+    "candidates": [
+      "konqi is the ego car.",
+      "konqi is left of the ego car.",
+      "wilber is the ego car.",
+      "konqi is behind the ego car.",
+      "The track is volcano_island."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00030_07_im.jpg",
+    "candidates": [
+      "suzanne is left of the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 0 karts in the scene.",
+      "amanda is left of the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000e7_03_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is lighthouse.",
+      "There are 1 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000ac_00_im.jpg",
+    "candidates": [
+      "The track is lighthouse.",
+      "konqi is the ego car.",
+      "The track is abyss.",
+      "nolok is the ego car.",
+      "There are 7 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00021_07_im.jpg",
+    "candidates": [
+      "adiumy is in front of the ego car.",
+      "konqi is the ego car.",
+      "The track is abyss.",
+      "The track is snowmountain.",
+      "emule is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00093_08_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "emule is in front of the ego car.",
+      "xue is in front of the ego car.",
+      "sara_the_wizard is left of the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0007f_05_im.jpg",
+    "candidates": [
+      "The track is tutorial.",
+      "nolok is the ego car.",
+      "emule is the ego car.",
+      "There are 1 karts in the scene.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00072_08_im.jpg",
+    "candidates": [
+      "The track is minigolf.",
+      "amanda is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is tutorial.",
+      "The track is scotland."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000ab_02_im.jpg",
+    "candidates": [
+      "amanda is in front of the ego car.",
+      "sara_the_racer is the ego car.",
+      "The track is fortmagma.",
+      "pidgin is the ego car.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0009e_02_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is scotland.",
+      "The track is sandtrack.",
+      "sara_the_wizard is in front of the ego car.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000d1_07_im.jpg",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "kiki is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "There are 0 karts in the scene."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00077_01_im.jpg",
+    "candidates": [
+      "There are 5 karts in the scene.",
+      "konqi is the ego car.",
+      "The track is cocoa_temple.",
+      "The track is zengarden.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00073_07_im.jpg",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is olivermath.",
+      "puffy is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0009f_01_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "There are 0 karts in the scene.",
+      "emule is the ego car.",
+      "The track is zengarden.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000fc_07_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "kiki is behind the ego car.",
+      "sara_the_racer is the ego car.",
+      "The track is olivermath.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000b4_00_im.jpg",
+    "candidates": [
+      "The track is scotland.",
+      "The track is snowtuxpeak.",
+      "adiumy is the ego car.",
+      "sara_the_wizard is behind the ego car.",
+      "The track is ravenbridge_mansion."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000c9_00_im.jpg",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "pidgin is the ego car.",
+      "adiumy is the ego car.",
+      "gnu is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000b3_07_im.jpg",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "There are 1 karts in the scene.",
+      "The track is tutorial.",
+      "The track is ravenbridge_mansion.",
+      "amanda is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000bd_07_im.jpg",
+    "candidates": [
+      "amanda is the ego car.",
+      "There are 7 karts in the scene.",
+      "There are 4 karts in the scene.",
+      "tux is the ego car.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00046_03_im.jpg",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "amanda is the ego car.",
+      "adiumy is the ego car.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00063_00_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "puffy is the ego car.",
+      "The track is tutorial.",
+      "The track is snowtuxpeak.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000db_08_im.jpg",
+    "candidates": [
+      "xue is the ego car.",
+      "konqi is the ego car.",
+      "amanda is the ego car.",
+      "The track is black_forest.",
+      "tux is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000b8_01_im.jpg",
+    "candidates": [
+      "The track is black_forest.",
+      "There are 8 karts in the scene.",
+      "The track is gran_paradiso_island.",
+      "gavroche is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00015_01_im.jpg",
+    "candidates": [
+      "adiumy is in front of the ego car.",
+      "The track is minigolf.",
+      "adiumy is right of the ego car.",
+      "puffy is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00017_02_im.jpg",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00001_09_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "pidgin is the ego car.",
+      "The track is olivermath.",
+      "There are 7 karts in the scene.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00018_05_im.jpg",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is xr591.",
+      "amanda is the ego car.",
+      "The track is minigolf.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000eb_03_im.jpg",
+    "candidates": [
+      "emule is right of the ego car.",
+      "pidgin is the ego car.",
+      "The track is abyss.",
+      "The track is xr591.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00037_01_im.jpg",
+    "candidates": [
+      "There are 5 karts in the scene.",
+      "There are 7 karts in the scene.",
+      "The track is hacienda.",
+      "The track is xr591.",
+      "The track is olivermath."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00057_02_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "sara_the_racer is in front of the ego car.",
+      "sara_the_racer is the ego car.",
+      "sara_the_racer is left of the ego car.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00058_03_im.jpg",
+    "candidates": [
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "konqi is the ego car.",
+      "sara_the_wizard is right of the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0007d_06_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "There are 3 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "There are 9 karts in the scene.",
+      "pidgin is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000de_00_im.jpg",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 2 karts in the scene.",
+      "The track is minigolf.",
+      "The track is lighthouse.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000e4_03_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is snowmountain.",
+      "sara_the_wizard is the ego car.",
+      "pidgin is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00045_03_im.jpg",
+    "candidates": [
+      "The track is ravenbridge_mansion.",
+      "konqi is the ego car.",
+      "nolok is the ego car.",
+      "The track is cornfield_crossing.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000ba_03_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is abyss.",
+      "The track is overworld.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00029_04_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "puffy is the ego car.",
+      "wilber is the ego car.",
+      "There are 1 karts in the scene.",
+      "emule is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00068_07_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "There are 6 karts in the scene.",
+      "The track is candela_city.",
+      "konqi is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00092_03_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "puffy is the ego car.",
+      "The track is scotland.",
+      "The track is xr591.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00036_05_im.jpg",
+    "candidates": [
+      "The track is xr591.",
+      "The track is gran_paradiso_island.",
+      "The track is candela_city.",
+      "puffy is the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000fa_04_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "There are 7 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000dc_07_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "nolok is the ego car.",
+      "beastie is right of the ego car.",
+      "beastie is left of the ego car.",
+      "amanda is left of the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0000d_02_im.jpg",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "The track is sandtrack.",
+      "The track is hacienda.",
+      "konqi is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00053_07_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "gnu is right of the ego car.",
+      "The track is snowmountain.",
+      "There are 5 karts in the scene.",
+      "gnu is in front of the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0005d_07_im.jpg",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "adiumy is left of the ego car.",
+      "adiumy is the ego car.",
+      "beastie is in front of the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/0009b_07_im.jpg",
+    "candidates": [
+      "sara_the_wizard is behind the ego car.",
+      "nolok is right of the ego car.",
+      "There are 9 karts in the scene.",
+      "beastie is behind the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00011_08_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "The track is cornfield_crossing.",
+      "There are 0 karts in the scene.",
+      "tux is right of the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00047_04_im.jpg",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 3 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "nolok is the ego car.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0006c_06_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "There are 4 karts in the scene.",
+      "The track is lighthouse.",
+      "There are 1 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0002c_09_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "The track is sandtrack.",
+      "sara_the_wizard is the ego car.",
+      "emule is the ego car.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00098_09_im.jpg",
+    "candidates": [
+      "The track is scotland.",
+      "kiki is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "The track is snowmountain.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/0007c_02_im.jpg",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "There are 8 karts in the scene.",
+      "The track is scotland.",
+      "The track is xr591.",
+      "The track is snowtuxpeak."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0002f_09_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is candela_city.",
+      "emule is the ego car.",
+      "gavroche is the ego car.",
+      "nolok is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00056_03_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is snowmountain.",
+      "adiumy is the ego car.",
+      "The track is hacienda.",
+      "The track is minigolf."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000a8_08_im.jpg",
+    "candidates": [
+      "gavroche is the ego car.",
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "The track is abyss.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0004f_09_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "The track is cocoa_temple.",
+      "There are 1 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000d8_05_im.jpg",
+    "candidates": [
+      "wilber is the ego car.",
+      "kiki is the ego car.",
+      "The track is tutorial.",
+      "The track is black_forest.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00031_01_im.jpg",
+    "candidates": [
+      "emule is the ego car.",
+      "There are 0 karts in the scene.",
+      "hexley is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000f1_06_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "sara_the_wizard is the ego car.",
+      "The track is gran_paradiso_island.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000e0_09_im.jpg",
+    "candidates": [
+      "kiki is right of the ego car.",
+      "pidgin is the ego car.",
+      "There are 6 karts in the scene.",
+      "The track is volcano_island.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000c2_00_im.jpg",
+    "candidates": [
+      "xue is behind the ego car.",
+      "xue is right of the ego car.",
+      "The track is zengarden.",
+      "sara_the_racer is the ego car.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0008c_09_im.jpg",
+    "candidates": [
+      "suzanne is the ego car.",
+      "tux is the ego car.",
+      "beastie is the ego car.",
+      "gnu is the ego car.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0009a_06_im.jpg",
+    "candidates": [
+      "The track is tutorial.",
+      "konqi is the ego car.",
+      "The track is minigolf.",
+      "puffy is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00023_02_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "The track is volcano_island.",
+      "There are 4 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00080_03_im.jpg",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "The track is xr591.",
+      "gavroche is the ego car.",
+      "There are 7 karts in the scene.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00083_07_im.jpg",
+    "candidates": [
+      "pidgin is the ego car.",
+      "The track is sandtrack.",
+      "The track is ravenbridge_mansion.",
+      "gnu is behind the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00059_03_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple.",
+      "pidgin is the ego car.",
+      "The track is lighthouse.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000cf_07_im.jpg",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is minigolf.",
+      "The track is candela_city.",
+      "The track is black_forest.",
+      "The track is scotland."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00060_01_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "emule is the ego car.",
+      "gnu is the ego car.",
+      "The track is black_forest.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0001e_02_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "The track is lighthouse.",
+      "The track is abyss.",
+      "sara_the_racer is right of the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0003d_05_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "There are 5 karts in the scene.",
+      "konqi is left of the ego car.",
+      "xue is left of the ego car.",
+      "The track is abyss."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00082_04_im.jpg",
+    "candidates": [
+      "The track is zengarden.",
+      "The track is volcano_island.",
+      "The track is cornfield_crossing.",
+      "emule is the ego car.",
+      "suzanne is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000d4_09_im.jpg",
+    "candidates": [
+      "There are 0 karts in the scene.",
+      "suzanne is the ego car.",
+      "The track is cornfield_crossing.",
+      "There are 5 karts in the scene.",
+      "The track is candela_city."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00074_00_im.jpg",
+    "candidates": [
+      "hexley is the ego car.",
+      "There are 4 karts in the scene.",
+      "The track is abyss.",
+      "The track is black_forest.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0003c_08_im.jpg",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 8 karts in the scene.",
+      "The track is snowtuxpeak.",
+      "The track is snowmountain.",
+      "sara_the_racer is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000a5_03_im.jpg",
+    "candidates": [
+      "gnu is in front of the ego car.",
+      "gnu is right of the ego car.",
+      "adiumy is behind the ego car.",
+      "There are 0 karts in the scene.",
+      "The track is xr591."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/0003e_00_im.jpg",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is ravenbridge_mansion.",
+      "The track is black_forest.",
+      "sara_the_racer is the ego car.",
+      "The track is overworld."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/0001c_03_im.jpg",
+    "candidates": [
+      "konqi is the ego car.",
+      "The track is overworld.",
+      "kiki is the ego car.",
+      "suzanne is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00020_00_im.jpg",
+    "candidates": [
+      "puffy is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 7 karts in the scene.",
+      "amanda is the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0005c_02_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is hacienda.",
+      "The track is abyss.",
+      "The track is ravenbridge_mansion.",
+      "tux is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00070_05_im.jpg",
+    "candidates": [
+      "kiki is the ego car.",
+      "The track is gran_paradiso_island.",
+      "The track is black_forest.",
+      "sara_the_wizard is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0008b_02_im.jpg",
+    "candidates": [
+      "hexley is the ego car.",
+      "The track is gran_paradiso_island.",
+      "sara_the_wizard is right of the ego car.",
+      "The track is volcano_island.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00050_04_im.jpg",
+    "candidates": [
+      "The track is black_forest.",
+      "The track is snowmountain.",
+      "wilber is the ego car.",
+      "amanda is the ego car.",
+      "The track is candela_city."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000ad_00_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "There are 8 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "The track is volcano_island.",
+      "The track is scotland."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/0002e_05_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "nolok is the ego car.",
+      "There are 0 karts in the scene.",
+      "The track is tutorial.",
+      "The track is minigolf."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000b9_02_im.jpg",
+    "candidates": [
+      "The track is hacienda.",
+      "The track is abyss.",
+      "gavroche is the ego car.",
+      "The track is tutorial.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00090_01_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is abyss.",
+      "beastie is the ego car.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0002a_01_im.jpg",
+    "candidates": [
+      "sara_the_racer is the ego car.",
+      "The track is black_forest.",
+      "There are 1 karts in the scene.",
+      "The track is candela_city.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000b5_01_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "There are 6 karts in the scene.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0008e_08_im.jpg",
+    "candidates": [
+      "The track is snowmountain.",
+      "tux is the ego car.",
+      "hexley is the ego car.",
+      "The track is fortmagma.",
+      "There are 7 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000c0_00_im.jpg",
+    "candidates": [
+      "The track is zengarden.",
+      "konqi is the ego car.",
+      "suzanne is the ego car.",
+      "The track is cornfield_crossing.",
+      "beastie is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000d6_05_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "kiki is the ego car.",
+      "The track is overworld.",
+      "The track is zengarden.",
+      "kiki is left of the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00041_02_im.jpg",
+    "candidates": [
+      "konqi is the ego car.",
+      "adiumy is in front of the ego car.",
+      "amanda is the ego car.",
+      "The track is volcano_island.",
+      "The track is ravenbridge_mansion."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000dd_09_im.jpg",
+    "candidates": [
+      "The track is hacienda.",
+      "The track is zengarden.",
+      "hexley is the ego car.",
+      "There are 5 karts in the scene.",
+      "emule is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000c4_03_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is snowtuxpeak.",
+      "The track is gran_paradiso_island.",
+      "There are 7 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00014_07_im.jpg",
+    "candidates": [
+      "gavroche is the ego car.",
+      "There are 0 karts in the scene.",
+      "sara_the_wizard is the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is olivermath."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00022_00_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "The track is ravenbridge_mansion.",
+      "The track is gran_paradiso_island.",
+      "The track is volcano_island.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0004c_05_im.jpg",
+    "candidates": [
+      "The track is overworld.",
+      "The track is black_forest.",
+      "amanda is the ego car.",
+      "There are 4 karts in the scene.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000be_00_im.jpg",
+    "candidates": [
+      "There are 6 karts in the scene.",
+      "The track is hacienda.",
+      "The track is olivermath.",
+      "sara_the_wizard is right of the ego car.",
+      "sara_the_wizard is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000f6_07_im.jpg",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "The track is candela_city.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00038_09_im.jpg",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "wilber is the ego car.",
+      "kiki is the ego car.",
+      "sara_the_racer is the ego car.",
+      "emule is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00087_02_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "The track is ravenbridge_mansion.",
+      "wilber is the ego car.",
+      "There are 6 karts in the scene.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00069_02_im.jpg",
+    "candidates": [
+      "The track is snowtuxpeak.",
+      "There are 2 karts in the scene.",
+      "There are 1 karts in the scene.",
+      "adiumy is the ego car.",
+      "The track is snowmountain."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00091_04_im.jpg",
+    "candidates": [
+      "The track is cocoa_temple.",
+      "There are 1 karts in the scene.",
+      "The track is snowtuxpeak.",
+      "The track is cornfield_crossing.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000f2_02_im.jpg",
+    "candidates": [
+      "The track is abyss.",
+      "nolok is the ego car.",
+      "sara_the_racer is in front of the ego car.",
+      "konqi is left of the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000b1_05_im.jpg",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is ravenbridge_mansion.",
+      "The track is black_forest.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0001d_04_im.jpg",
+    "candidates": [
+      "The track is zengarden.",
+      "gavroche is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is snowtuxpeak."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000da_02_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "gnu is the ego car.",
+      "pidgin is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is hacienda."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0007a_06_im.jpg",
+    "candidates": [
+      "The track is overworld.",
+      "The track is fortmagma.",
+      "kiki is the ego car.",
+      "gavroche is the ego car.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00034_00_im.jpg",
+    "candidates": [
+      "tux is the ego car.",
+      "There are 9 karts in the scene.",
+      "The track is volcano_island.",
+      "There are 1 karts in the scene.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0005b_04_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "xue is the ego car.",
+      "The track is gran_paradiso_island.",
+      "There are 8 karts in the scene.",
+      "wilber is left of the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00008_08_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "puffy is the ego car.",
+      "The track is abyss.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0006a_03_im.jpg",
+    "candidates": [
+      "The track is volcano_island.",
+      "gnu is the ego car.",
+      "tux is the ego car.",
+      "nolok is the ego car.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000a2_09_im.jpg",
+    "candidates": [
+      "The track is tutorial.",
+      "The track is zengarden.",
+      "There are 7 karts in the scene.",
+      "The track is olivermath.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000d0_06_im.jpg",
+    "candidates": [
+      "The track is sandtrack.",
+      "tux is behind the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is volcano_island.",
+      "The track is abyss."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00013_01_im.jpg",
+    "candidates": [
+      "There are 3 karts in the scene.",
+      "The track is overworld.",
+      "hexley is the ego car.",
+      "The track is cornfield_crossing.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0004e_04_im.jpg",
+    "candidates": [
+      "The track is olivermath.",
+      "There are 4 karts in the scene.",
+      "There are 5 karts in the scene.",
+      "sara_the_racer is the ego car.",
+      "The track is xr591."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00055_06_im.jpg",
+    "candidates": [
+      "gnu is the ego car.",
+      "The track is snowmountain.",
+      "The track is zengarden.",
+      "wilber is the ego car.",
+      "The track is scotland."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000a0_02_im.jpg",
+    "candidates": [
+      "The track is overworld.",
+      "The track is sandtrack.",
+      "The track is scotland.",
+      "The track is gran_paradiso_island.",
+      "tux is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0003f_02_im.jpg",
+    "candidates": [
+      "The track is ravenbridge_mansion.",
+      "The track is snowmountain.",
+      "wilber is the ego car.",
+      "The track is xr591.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000cb_04_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "The track is olivermath.",
+      "There are 1 karts in the scene.",
+      "The track is cocoa_temple.",
+      "puffy is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00026_00_im.jpg",
+    "candidates": [
+      "The track is volcano_island.",
+      "The track is fortmagma.",
+      "The track is minigolf.",
+      "There are 5 karts in the scene.",
+      "The track is cocoa_temple."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/00000_06_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is overworld.",
+      "The track is sandtrack.",
+      "The track is abyss.",
+      "hexley is the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0006f_06_im.jpg",
+    "candidates": [
+      "The track is hacienda.",
+      "There are 4 karts in the scene.",
+      "kiki is the ego car.",
+      "The track is overworld.",
+      "The track is xr591."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0000a_04_im.jpg",
+    "candidates": [
+      "The track is fortmagma.",
+      "konqi is the ego car.",
+      "kiki is the ego car.",
+      "hexley is the ego car.",
+      "The track is tutorial."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000a4_06_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "There are 2 karts in the scene.",
+      "The track is volcano_island.",
+      "The track is overworld."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00002_01_im.jpg",
+    "candidates": [
+      "The track is zengarden.",
+      "There are 1 karts in the scene.",
+      "wilber is the ego car.",
+      "tux is the ego car.",
+      "There are 2 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00086_03_im.jpg",
+    "candidates": [
+      "sara_the_wizard is the ego car.",
+      "The track is snowmountain.",
+      "konqi is the ego car.",
+      "The track is xr591.",
+      "xue is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/0001a_07_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is overworld.",
+      "emule is the ego car.",
+      "The track is abyss.",
+      "The track is candela_city."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0000c_05_im.jpg",
+    "candidates": [
+      "The track is tutorial.",
+      "The track is xr591.",
+      "There are 1 karts in the scene.",
+      "There are 2 karts in the scene.",
+      "There are 9 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000fb_07_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "The track is abyss.",
+      "The track is xr591.",
+      "The track is cornfield_crossing.",
+      "There are 4 karts in the scene."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00067_03_im.jpg",
+    "candidates": [
+      "There are 8 karts in the scene.",
+      "The track is overworld.",
+      "gavroche is the ego car.",
+      "There are 1 karts in the scene.",
+      "The track is minigolf."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00032_04_im.jpg",
+    "candidates": [
+      "The track is zengarden.",
+      "The track is sandtrack.",
+      "xue is the ego car.",
+      "The track is fortmagma.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00061_02_im.jpg",
+    "candidates": [
+      "The track is candela_city.",
+      "The track is volcano_island.",
+      "The track is snowmountain.",
+      "puffy is behind the ego car.",
+      "There are 8 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/0006d_05_im.jpg",
+    "candidates": [
+      "The track is sandtrack.",
+      "adiumy is the ego car.",
+      "The track is minigolf.",
+      "The track is lighthouse.",
+      "The track is xr591."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/00016_07_im.jpg",
+    "candidates": [
+      "The track is lighthouse.",
+      "The track is gran_paradiso_island.",
+      "sara_the_racer is the ego car.",
+      "xue is the ego car.",
+      "konqi is the ego car."
+    ],
+    "correct_index": 1
+  },
+  {
+    "image_file": "valid/000e2_06_im.jpg",
+    "candidates": [
+      "The track is xr591.",
+      "The track is cornfield_crossing.",
+      "gavroche is the ego car.",
+      "gavroche is left of the ego car.",
+      "xue is in front of the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00039_04_im.jpg",
+    "candidates": [
+      "nolok is left of the ego car.",
+      "pidgin is the ego car.",
+      "There are 1 karts in the scene.",
+      "puffy is left of the ego car.",
+      "amanda is left of the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0000b_05_im.jpg",
+    "candidates": [
+      "There are 7 karts in the scene.",
+      "suzanne is the ego car.",
+      "There are 4 karts in the scene.",
+      "pidgin is behind the ego car.",
+      "kiki is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000fd_00_im.jpg",
+    "candidates": [
+      "The track is sandtrack.",
+      "The track is volcano_island.",
+      "sara_the_wizard is the ego car.",
+      "The track is xr591.",
+      "konqi is behind the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/0005e_09_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "There are 0 karts in the scene.",
+      "The track is volcano_island.",
+      "The track is xr591.",
+      "The track is black_forest."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00040_08_im.jpg",
+    "candidates": [
+      "konqi is left of the ego car.",
+      "kiki is the ego car.",
+      "konqi is behind the ego car.",
+      "xue is in front of the ego car.",
+      "The track is lighthouse."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0006e_01_im.jpg",
+    "candidates": [
+      "beastie is the ego car.",
+      "emule is the ego car.",
+      "The track is abyss.",
+      "kiki is the ego car.",
+      "The track is minigolf."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000c8_09_im.jpg",
+    "candidates": [
+      "The track is overworld.",
+      "sara_the_wizard is the ego car.",
+      "beastie is the ego car.",
+      "The track is cocoa_temple.",
+      "nolok is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00049_06_im.jpg",
+    "candidates": [
+      "The track is snowmountain.",
+      "There are 0 karts in the scene.",
+      "The track is hacienda.",
+      "xue is the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000e3_05_im.jpg",
+    "candidates": [
+      "sara_the_wizard is the ego car.",
+      "beastie is the ego car.",
+      "The track is zengarden.",
+      "The track is hacienda.",
+      "There are 1 karts in the scene."
+    ],
+    "correct_index": 4
+  },
+  {
+    "image_file": "valid/000cd_02_im.jpg",
+    "candidates": [
+      "amanda is the ego car.",
+      "sara_the_racer is the ego car.",
+      "hexley is the ego car.",
+      "kiki is the ego car.",
+      "The track is fortmagma."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00004_05_im.jpg",
+    "candidates": [
+      "The track is scotland.",
+      "tux is the ego car.",
+      "The track is black_forest.",
+      "sara_the_wizard is the ego car.",
+      "adiumy is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000a7_02_im.jpg",
+    "candidates": [
+      "adiumy is the ego car.",
+      "The track is cornfield_crossing.",
+      "The track is black_forest.",
+      "emule is the ego car.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/00071_05_im.jpg",
+    "candidates": [
+      "The track is snowmountain.",
+      "The track is lighthouse.",
+      "The track is sandtrack.",
+      "xue is right of the ego car.",
+      "xue is behind the ego car."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/00075_09_im.jpg",
+    "candidates": [
+      "sara_the_wizard is right of the ego car.",
+      "The track is black_forest.",
+      "The track is scotland.",
+      "The track is cocoa_temple.",
+      "tux is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/00033_04_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "sara_the_racer is in front of the ego car.",
+      "xue is the ego car.",
+      "pidgin is the ego car.",
+      "The track is zengarden."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000d3_00_im.jpg",
+    "candidates": [
+      "There are 8 karts in the scene.",
+      "wilber is the ego car.",
+      "The track is zengarden.",
+      "konqi is the ego car.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000f3_06_im.jpg",
+    "candidates": [
+      "nolok is the ego car.",
+      "adiumy is right of the ego car.",
+      "tux is behind the ego car.",
+      "tux is the ego car.",
+      "pidgin is the ego car."
+    ],
+    "correct_index": 2
+  },
+  {
+    "image_file": "valid/000c7_08_im.jpg",
+    "candidates": [
+      "There are 4 karts in the scene.",
+      "hexley is the ego car.",
+      "puffy is the ego car.",
+      "The track is sandtrack.",
+      "The track is volcano_island."
+    ],
+    "correct_index": 3
+  },
+  {
+    "image_file": "valid/000cc_06_im.jpg",
+    "candidates": [
+      "The track is xr591.",
+      "The track is volcano_island.",
+      "adiumy is the ego car.",
+      "There are 8 karts in the scene.",
+      "wilber is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000f8_09_im.jpg",
+    "candidates": [
+      "There are 1 karts in the scene.",
+      "suzanne is the ego car.",
+      "There are 5 karts in the scene.",
+      "The track is fortmagma.",
+      "gnu is the ego car."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0004a_03_im.jpg",
+    "candidates": [
+      "emule is behind the ego car.",
+      "tux is the ego car.",
+      "sara_the_wizard is the ego car.",
+      "The track is zengarden.",
+      "The track is cornfield_crossing."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/0008a_06_im.jpg",
+    "candidates": [
+      "There are 2 karts in the scene.",
+      "There are 3 karts in the scene.",
+      "nolok is the ego car.",
+      "The track is xr591.",
+      "The track is gran_paradiso_island."
+    ],
+    "correct_index": 0
+  },
+  {
+    "image_file": "valid/000c1_02_im.jpg",
+    "candidates": [
+      "There are 9 karts in the scene.",
+      "The track is olivermath.",
+      "There are 7 karts in the scene.",
+      "The track is black_forest.",
+      "There are 5 karts in the scene."
+    ],
+    "correct_index": 3
+  }
+]
