@@ -1,0 +1,18 @@
+[
+    {
+      "image_file": "train/00000_07_im.jpg",
+      "caption": "emule is the ego car."
+    },
+    {
+        "image_file": "train/0000a_01_im.jpg",
+        "caption": "There are 3 karts in the scene."
+    },
+    {
+      "image_file": "train/00a00_03_im.jpg",
+      "caption": "There are 2 karts in the scene."
+    },
+    {
+      "image_file": "train/00a00_01_im.jpg",
+      "caption": "The track is snowmountain."
+    }
+]
